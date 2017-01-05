@@ -1,0 +1,36 @@
+img {
+  width: 100%
+}
+
+.overlay {
+  position: absolute;
+  left: 5%;
+  bottom: 12%;
+  font-size: 6vw;
+  margin-right: 15px;
+}
+
+
+
+.overlay span {
+  color: white;
+  background: rgba(255, 0, 0, 0.5);
+  padding-left: 2vw;
+  padding-right: 2vw;
+}
+
+@media screen and (min-width: 992px) {
+  .overlay {
+    position: absolute;
+    left: 5%;
+    bottom: 20%;
+    font-size: 4vw;
+    padding-left: 0.5vw;
+    padding-right: 0.5vw;
+  }
+  .overlay span {
+    color: white;
+    background: rgba(255, 0, 0, 0.5);
+  }
+
+}
